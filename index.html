@@ -1,0 +1,10 @@
+<html>
+<head>
+	<title>Welcome!</title>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="start()">
+	<h1 id="game_stats">Hangman: you have 7 lives</h1>
+	<h3 id="game_panel">_</h1>
+	<input style="height:25px;" type="text" id="search_char" onkeyup="validate(this);"/><button id="button" onClick="clickGuess()" style="height:25px;width:70px;font-family:Arial;font-size:16px;">Guess!</button>
+</html>
